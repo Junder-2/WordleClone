@@ -153,6 +153,8 @@ public class GameManager : MonoBehaviour
         {
             key.ResetCloseness();
         }
+        
+        _alreadyGuessed.Clear();
 
         _blockInput = false;
     }

@@ -35,7 +35,7 @@ public class InputManager : MonoBehaviour
     private void Update()
     {
         if (!Input.anyKeyDown) return;
-
+        
         foreach (var keyCode in _detectableKeys)
         {
             if (!Input.GetKeyDown(keyCode)) continue;
